@@ -1,7 +1,7 @@
 export const metaData = {
   baseUrl: "https://unobatbayar.github.io/",
   title: "Usukhbayar Batbayar",
-  name: "Sirius",
+  name: "Usukhbayar Batbayar",
   ogImage: "/opengraph-image.png",
   description:
     "Personal Website",

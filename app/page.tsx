@@ -1,5 +1,5 @@
-import Image from "next/image";
-import { socialLinks } from "./config";
+// import Image from "next/image";
+// import { socialLinks } from "./config";
 import DynamicText from "./components/dynamic-text";
 
 export default function Page() {

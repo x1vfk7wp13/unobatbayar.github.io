@@ -1,10 +1,10 @@
-﻿"use client"
+"use client"
 import { useState, useEffect } from 'react';
 
 const DynamicText = () => {
   // Dynamic texts based on your interests
   const texts = [
-    'building apps',
+    'building things',
     'playing chess',
     'security and privacy',
     'going for a run'

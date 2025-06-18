@@ -43,7 +43,7 @@ export const projects: Project[] = [
   },
   {
     img: "/images/cyberbolt.webp",
-    title: "Cyberbolt - Endless Runner",
+    title: "Cyber Bolt - Arcade Game",
     year: 2020,
     description:
       "3D Mobile Game for iOS and Android",

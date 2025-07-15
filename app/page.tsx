@@ -12,7 +12,7 @@ export default function Page() {
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-        Hi! I'm Uno 👋, a software engineer from Ulaanbaatar, Mongolia 🇲🇳. 
+        Hi! I'm Uno 👋, an engineer and entrepreneur from Ulaanbaatar, Mongolia 🇲🇳.
         </p>
       </div>
 

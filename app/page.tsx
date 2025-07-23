@@ -12,7 +12,10 @@ export default function Page() {
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-        Hi! I'm Uno 👋, a developer from Ulaanbaatar, Mongolia 🇲🇳.
+        Hi! I'm Uno 👋, a software engineer, gamer from Ulaanbaatar, Mongolia 🇲🇳.
+        </p>
+        <p>
+          From a young age, video games like Drakengard, World of Warcraft, and League of Legends ignited my imagination and challenged me to explore new worlds beyond reality. Now working in the music industry, my drive for creativity and adventure remains strong. I am passionate about merging my deep love for gaming with engineering to build innovative experiences that inspire and captivate others.
         </p>
       </div>
 

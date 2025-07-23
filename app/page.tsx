@@ -10,7 +10,7 @@ export default function Page() {
         <DynamicText/>
       </h1>
 
-      <div className="prose prose-neutral dark:prose-invert">
+      <div className="prose prose-neutral dark:prose-invert mb-2">
         <p>
         Hi! I'm Uno 👋, a software engineer, gamer from Ulaanbaatar, Mongolia 🇲🇳.
         </p>

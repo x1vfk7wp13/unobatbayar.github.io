@@ -1,3 +1,5 @@
+'use client';
+
 // import Image from "next/image";
 // import { socialLinks } from "./config";
 import DynamicText from "./components/dynamic-text";

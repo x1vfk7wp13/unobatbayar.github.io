@@ -2,22 +2,37 @@
 // import { socialLinks } from "./config";
 import DynamicText from "./components/dynamic-text";
 import { projects } from "./projects/project-data";
+import { useState } from 'react';
 
 export default function Page() {
+  const [showMore, setShowMore] = useState(false);
+
   return (
     <section>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">
         <DynamicText/>
       </h1>
 
-      <div className="prose prose-neutral dark:prose-invert mb-2">
-        <p>
+    <div className="prose prose-neutral dark:prose-invert mb-2">
+      <p>
         Hi! I'm Uno 👋, a software engineer, gamer from Ulaanbaatar, Mongolia 🇲🇳.
-        </p>
+      </p>
+
+      {/* Hidden until clicked */}
+      {showMore && (
         <p>
           From a young age, video games like Drakengard, World of Warcraft, and League of Legends ignited my imagination and challenged me to explore new worlds beyond reality. Now working in the music industry, my drive for creativity and adventure remains strong. I am passionate about merging my deep love for gaming with engineering to build innovative experiences that inspire and captivate others.
         </p>
-      </div>
+      )}
+
+      {/* Toggle Button */}
+      <button
+        onClick={() => setShowMore(!showMore)}
+        className="text-sm text-blue-500 hover:underline focus:outline-none"
+      >
+        {showMore ? 'Show less' : 'Read more'}
+      </button>
+    </div>
 
       <h1 className="mb-8 text-2xl font-medium tracking-tight">Projects</h1>
       <div className="space-y-6">

@@ -11,5 +11,5 @@ export const socialLinks = {
   appstore: "https://apps.apple.com/developer/usukhbayar-batbayar/id1532655863",
   github: "https://github.com/unobatbayar",
   stackoverflow: "https://stackoverflow.com/users/12330629",
-  linkedin: "https://www.linkedin.com/in/unobatbayar"
+  linkedin: "https://www.linkedin.com/in/rytx88jz24dmyzfg290cad9gnzatcr"
 };
